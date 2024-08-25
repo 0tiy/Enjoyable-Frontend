@@ -1,0 +1,42 @@
+:root {
+    --main-color:#C7A06D;
+    --background-color: #474038;
+    --link-hover: #AA8050;
+    --heading-color: #c07d3e;
+}
+
+body {
+background-color: var(--background-color);
+    color: var(--main-color);
+
+    margin: 0;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    color: var(--heading-color);
+}
+
+article {
+    border: 2px solid var(--main-color);
+    border-radius: 010px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navBar {
+    a:link {
+        color: var(--main-color);
+    }
+    a:hover {
+        color: var(--link-hover);
+    }
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
