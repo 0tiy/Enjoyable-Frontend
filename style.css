@@ -1,8 +1,8 @@
 :root {
-    --main-color:#C7A06D;
-    --background-color: #474038;
-    --link-hover: #AA8050;
-    --heading-color: #c07d3e;
+    --main-color:#E7E6E0;
+    --background-color: #406F85;
+    --link-hover: #305C73;
+    --heading-color: #305C73;
 }
 
 body {
@@ -14,6 +14,10 @@ background-color: var(--background-color);
 
 :is(h1, h2, h3, h4, h5, h6) {
     color: var(--heading-color);
+    border: solid var(--main-color);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #E7E6E0;
 }
 
 article {
